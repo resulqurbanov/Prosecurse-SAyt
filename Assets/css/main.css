@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol, a {
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #f1eded;
+}
+
+nav {
+  position: absolute;
+  width: 100%;
+  height: 104px;
+  z-index: -1;
+}
+nav .nav_container {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .nav_container h3 {
+  font-size: 50px;
+}
+nav .nav_container ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav .nav_container ul li {
+  margin: 15px;
+}
+nav .nav_container i {
+  font-size: 25px;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  z-index: -2;
+  display: flex;
+  height: 866px;
+}
+header .header_main {
+  width: 100%;
+  height: 90%;
+  background-image: url("../imgs/cover.svg");
+  background-image: no-repeat;
+  background-size: cover;
+}
+header .header_main h1 {
+  margin-left: 275px;
+  margin-top: 187px;
+  font-size: 58px;
+  width: 400px;
+}
+header .header_main h4 {
+  margin-left: 275px;
+  margin-top: 22px;
+  font-size: 20px;
+  width: 328px;
+}
+header .header_main #header_btn1 {
+  width: 182px;
+  height: 48px;
+  border-radius: 37px;
+  background: #784F33;
+  border: 0;
+  color: white;
+  margin-top: 10px;
+  margin-left: 275px;
+}
+header .header_main #header_btn2 {
+  width: 155px;
+  height: 48px;
+  border: 1px solid #784F33;
+  border-radius: 37px;
+}
+header .header_main .cards {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 190px;
+}
+header .header_main .cards #card1 {
+  width: 328px;
+  height: 210px;
+  padding: 35px 40px;
+  background: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header .header_main .cards #card2 {
+  width: 328px;
+  height: 210px;
+  padding: 35px 40px;
+  background: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header .header_main .cards #card3 {
+  width: 328px;
+  height: 210px;
+  padding: 35px 40px;
+  background: #295C7A;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Matters {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.Matters .matter_basliq {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 65px;
+  margin-bottom: 90px;
+}
+.Matters .matter_basliq h2 {
+  font-size: 40px;
+}
+.Matters .matter_basliq p {
+  font-size: 14px;
+  width: 400px;
+  text-align: center;
+  color: #737373;
+}
+.Matters .matters_deyer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 94px;
+}
+.Matters .matters_deyer .deyerler {
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Matters .matters_deyer .deyerler h2 {
+  font-size: 34px;
+}
+.Matters .matters_deyer .deyerler h5 {
+  font-size: 15px;
+  color: #737373;
+}
+
+.Practice {
+  margin-bottom: 80px;
+}
+.Practice .news_basliq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 85px;
+}
+.Practice .news_basliq h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 10px;
+}
+.Practice .news_basliq p {
+  font-size: 14px;
+  width: 400px;
+  text-align: center;
+  color: #737373;
+}
+.Practice .news_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+.Practice .news_main .news {
+  background-color: white;
+  height: 341px;
+  width: 230px;
+  top: 0px;
+  border-radius: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.Practice .news_main .news h5 {
+  color: #252B42;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  width: 120px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.Practice .news_main .news p {
+  color: #737373;
+  margin-left: 20px;
+  width: 150px;
+}
+.Practice .news_main .news img {
+  margin-top: 78px;
+}
+
+.who_we_are {
+  width: 100%;
+  height: 890px;
+}
+.who_we_are .who_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.who_we_are .who_main h2 {
+  margin-top: 100px;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.who_we_are .who_main p {
+  font-size: 14px;
+  color: #737373;
+  margin-bottom: 100px;
+  width: 400px;
+  text-align: center;
+}
+.who_we_are .who_foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.who_we_are .who_foto .main_fotoo {
+  margin-left: 196px;
+}
+.who_we_are .who_foto .info1 {
+  display: flex;
+  align-items: flex-start;
+}
+.who_we_are .who_foto .info2 {
+  display: flex;
+  align-items: flex-start;
+}
+.who_we_are .who_foto .main_info {
+  margin-left: 121px;
+}
+.who_we_are .who_foto .main_info h2 {
+  font-size: 40px;
+  width: 300px;
+  margin-top: -200px;
+}
+.who_we_are .who_foto .main_info p {
+  font-size: 14px;
+  width: 260px;
+  color: #737373;
+  margin-top: 10px;
+  margin-bottom: 55px;
+}
+.who_we_are .who_foto .main_info .info1 {
+  margin-bottom: 30px;
+}
+.who_we_are .who_foto .main_info .info1 img {
+  margin-right: 15px;
+}
+.who_we_are .who_foto .main_info .info1 h5 {
+  font-size: 16px;
+}
+.who_we_are .who_foto .main_info .info1 h6 {
+  font-size: 14px;
+}
+.who_we_are .who_foto .main_info .info2 img {
+  margin-right: 15px;
+}
+.who_we_are .who_foto .main_info .info2 h5 {
+  font-size: 16px;
+}
+.who_we_are .who_foto .main_info .info2 h6 {
+  font-size: 14px;
+}
+
+.media {
+  position: relative;
+}
+.media .logo_med {
+  display: flex;
+  justify-content: space-evenly;
+}
+.media .reng {
+  width: 100%;
+  height: 77px;
+  top: 262px;
+  background-color: #252B42;
+  position: relative;
+  z-index: -2;
+}
+.media .mail {
+  display: flex;
+  padding: 30px 50px;
+  width: 986px;
+  height: 100px;
+  background: #295C7A;
+  border-radius: 2px;
+  justify-content: space-between;
+  margin-left: 365px;
+  margin-top: 210px;
+  position: absolute;
+  z-index: -1;
+}
+.media .mail h3 {
+  font-size: 24px;
+  color: white;
+  width: 250px;
+}
+.media .mail .input_mail input {
+  height: 58px;
+  width: 450px;
+  border-radius: 5px;
+  border: 0px;
+}
+.media .mail button {
+  height: 58px;
+  width: 117px;
+  background-color: #D0A144;
+  border: 0px;
+}/*# sourceMappingURL=main.css.map */

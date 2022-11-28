@@ -1,0 +1,116 @@
+body{
+    background-color: #f1eded;
+}
+nav {
+    position: absolute;
+    width: 100%;
+    height: 104px;
+    z-index: -1;
+
+    .nav_container {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        h3 {
+            font-size: 50px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+
+            li {
+                margin: 15px;
+            }
+        }
+
+        i {
+            font-size: 25px;
+        }
+
+    }
+
+}
+
+header {
+    position: relative;
+    width: 100%;
+    z-index: -2;
+    display: flex;
+    height: 866px;
+
+    .header_main {
+        width: 100%;
+        height: 90%;
+        background-image: url("../imgs/cover.svg");
+        background-image: no-repeat;
+        background-size: cover;
+
+        h1 {
+            margin-left: 275px;
+            margin-top: 187px;
+            font-size: 58px;
+            width: 400px;
+        }
+
+        h4 {
+            margin-left: 275px;
+            margin-top: 22px;
+            font-size: 20px;
+            width: 328px;
+        }
+
+        #header_btn1 {
+            width: 182px;
+            height: 48px;
+            border-radius: 37px;
+            background: #784F33;
+            border: 0;
+            color: white;
+            margin-top: 10px;
+            margin-left: 275px;
+        }
+
+        #header_btn2 {
+            width: 155px;
+            height: 48px;
+            border: 1px solid #784F33;
+            border-radius: 37px;
+
+        }
+
+        .cards {
+            flex-direction: row;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 190px;
+            #card1 {
+                width: 328px;
+                height: 210px;
+                padding: 35px 40px;
+                background: white;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            #card2{
+                width: 328px;
+                height: 210px;
+                padding: 35px 40px;
+                background: white;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            #card3{
+                width: 328px;
+                height: 210px;
+                padding: 35px 40px;
+                background:  #295C7A;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+}
